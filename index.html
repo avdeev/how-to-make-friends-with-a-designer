@@ -1,4 +1,7 @@
 <!-- https://infogra.ru/design/5-sovetov-kak-dizajneru-i-frontenderu-rabotat-effektivno -->
+<!-- https://vc.ru/design/129914-kak-naladit-rabotu-mezhdu-dizaynerami-i-razrabotchikami -->
+<!-- https://vc.ru/design/446227-ot-dizayna-k-frontendu-kak-peredat-maket-v-razrabotku -->
+
 <!-- Ставить шутку про Фиксиков -->
 <!-- показать боль! -->
 <!-- форматы изображений https://caniuse.com/avif -->
@@ -12,6 +15,20 @@
 <!-- Подробнее проговаривать особенности. платформ, просвящать дизов о базовых принипах работы -->
 
 <!-- разработчик понимает задачу -->
+
+<!-- Разные типы доступов (can edit, view only)
+Приложение или браузер
+Типы слоёв:
+- текст
+- вектор
+- автолейаут
+- frame
+- компонент (мастер-компонент, инстанс)
+Горячие клавиши (зум, перемещение, комментарии, выделение)
+Сетка
+Варианты (пропсы)
+Панель разработчика (inspect), Go to main component
+Статусы -->
 <!DOCTYPE html>
 <html lang="ru">
   <head>
@@ -194,20 +211,64 @@
       <h2 class="shout small" style="top: 10%; z-index: 1">Дистанция</h2>
     </section>
 
+    <section class="slide clear">
+      <img class="cover w" src="pictures/webmaster.png" alt="" />
+    </section>
+
     <section class="slide">
       <h2 class="shout brand">Как стать ближе?</h2>
     </section>
 
-    <section class="slide clear">
-      <img class="cover w" src="pictures/human-focused.jpeg" alt="" style="width: 80%" />
+    <section class="slide">
+      <h2 class="shout brand elevated">
+        <span style="font-size: 1.5em">10</span><br />Познакомьтесь
+      </h2>
     </section>
 
     <section class="slide">
-      <h2 class="shout brand elevated"><span style="font-size: 1.5em">9</span><br />Компоненты</h2>
+      <h2>Что обсудить</h2>
+
+      <ul style="margin-left: 5px">
+        <li style="font-size: 1.2em">планы проекта</li>
+        <li style="font-size: 1.2em" class="next">этапы сдачи экранов и приоритетность</li>
+        <li style="font-size: 1.2em" class="next">гайдлайны</li>
+        <li style="font-size: 1.2em" class="next">технических возможностях</li>
+        <li style="font-size: 1.2em" class="next">сроки разработки</li>
+      </ul>
+    </section>
+
+    <section class="slide">
+      <h2 class="shout brand elevated">
+        <span style="font-size: 1.5em">9</span><br />Изучите Figma
+      </h2>
+    </section>
+
+    <!-- https://uxtools.co/survey/2022/ui-design -->
+    <section class="slide clear">
+      <img class="cover h" src="pictures/figma_stat.png" alt="" style="height: 90%" />
+    </section>
+
+    <section class="slide clear">
+      <img class="cover h" src="pictures/google_chrome.png" alt="" style="height: 90%" />
+    </section>
+
+    <section class="slide">
+      <h2 class="shout">Дестопная версия</h2>
+    </section>
+
+    <section class="slide">
+      <h2 class="shout">Can edit</h2>
+    </section>
+
+    <section class="slide">
+      <h2 class="shout">Компоненты</h2>
+    </section>
+
+    <section class="slide clear">
+      <img class="cover w" src="pictures/components.7fbb3771.png" alt="" />
     </section>
 
     <!-- 50 оттенков серого -->
-
     <section class="slide clear">
       <img class="cover h" src="pictures/steam.webp" alt="" />
     </section>
@@ -224,18 +285,34 @@
       <img class="cover h" src="pictures/figma-components.png" alt="" />
     </section>
 
-    <section class="slide clear">
-      <img class="cover w" src="pictures/components.7fbb3771.png" alt="" />
-    </section>
-
-    <section class="slide clear">
-      <img class="cover w" src="pictures/we-better.png" alt="" />
-      <h2 class="shout small" style="top: 10%; z-index: 1">Компоненты</h2>
+    <section class="slide">
+      <h2 class="shout">Auto Layout</h2>
     </section>
 
     <section class="slide">
-      <h2 class="shout">Проектируйте, а&nbsp;не&nbsp;рисуйте</h2>
+      <h2>Flexbox</h2>
+
+      <pre>
+        <code>.block {</code>
+        <code>  display: flex;</code>
+        <code>  flex-flow: row wrap;</code>
+        <code>  justify-content: flex-end;</code>
+        <code>}</code>
+      </pre>
     </section>
+
+    <section class="slide clear">
+      <img class="cover h" src="pictures/auto-layout-panel.png" alt="" />
+    </section>
+
+    <!-- <section class="slide clear">
+      <img class="cover w" src="pictures/we-better.png" alt="" />
+      <h2 class="shout small" style="top: 10%; z-index: 1">Компоненты</h2>
+    </section> -->
+
+    <!-- <section class="slide">
+      <h2 class="shout">Проектируйте, а&nbsp;не&nbsp;рисуйте</h2>
+    </section> -->
 
     <section class="slide">
       <h2 class="shout brand elevated"><span style="font-size: 1.5em">8</span><br />Адаптив</h2>
@@ -266,6 +343,10 @@
       <img class="cover w" src="pictures/rb-7-adaptives.png" alt="" />
     </section>
 
+    <section class="slide clear">
+      <img class="cover h" src="pictures/figma-responsive-demonstration.gif" alt="" />
+    </section>
+
     <!-- ИЛЛЮСТРАЦИЯ отрисовывайте брейкпойнты, где что-то меняется ПОКАЗАТЬ -->
     <section class="slide">
       <h2 class="shout">Только то, что&nbsp;изменяется</h2>
@@ -273,6 +354,14 @@
 
     <section class="slide clear">
       <img class="cover h" src="pictures/adaptive.png" alt="" />
+    </section>
+
+    <section class="slide">
+      <h2 class="shout">Breakpoints Plugin</h2>
+    </section>
+
+    <section class="slide clear" style="background-color: #ffe6d5">
+      <img class="cover w" src="pictures/d45fe0c6-1286-479a-8f13-3f51acba3b74-cover.gif" alt="" />
     </section>
 
     <section class="slide">
@@ -291,36 +380,23 @@
       <img class="cover h" src="pictures/container-query-examples.png" alt="" />
     </section>
 
+    <section class="slide">
+      <h2 class="shout">Progressive Enhancement</h2>
+    </section>
+
     <!-- mobile first используется, не панацея -->
     <section class="slide clear" style="background-color: #b1e3d1">
       <img class="cover w" src="pictures/partners_blog_progressive_enhancement_hero.webp" alt="" />
     </section>
 
-    <!-- авто лейаут углубиться, дополнительного мясо -->
-    <section class="slide clear">
-      <img class="cover h" src="pictures/auto-layout-panel.png" alt="" />
-    </section>
-
-    <section class="slide">
-      <h2>Flexbox</h2>
-
-      <pre>
-        <code>.block {</code>
-        <code>  display: flex;</code>
-        <code>  flex-flow: row wrap;</code>
-        <code>  justify-content: flex-end;</code>
-        <code>}</code>
-      </pre>
-    </section>
-
-    <section class="slide clear">
+    <!-- <section class="slide clear">
       <img class="cover w" src="pictures/we-better.png" alt="" />
       <h2 class="shout small" style="top: 10%; z-index: 1">Auto Layout</h2>
-    </section>
+    </section> -->
 
-    <section class="slide">
+    <!-- <section class="slide">
       <h2 class="shout">Продумывайте адаптив</h2>
-    </section>
+    </section> -->
 
     <!-- auto layout позволяет делать респонсив -->
     <!-- вопросы: сколько брейкпойнтов вы используете? -->
@@ -387,7 +463,7 @@
     </section>
 
     <section class="slide">
-      <img class="cover h" src="pictures/github.png" alt="" />
+      <img class="cover h" src="pictures/sbermarket_github.png" alt="" />
     </section>
 
     <section class="slide">
@@ -420,64 +496,6 @@
     </section>
     <!-- google fonts не пояснять -->
 
-    <section class="slide">
-      <h2 class="shout brand elevated"><span style="font-size: 1.5em">5</span><br />Скролл</h2>
-    </section>
-
-    <section class="slide clear">
-      <img class="cover w" src="pictures/scroll.avif" alt="" style="width: 90%" />
-    </section>
-
-    <section class="slide">
-      <h2 class="shout">60 кадров в&nbsp;секунду<br />(FPS)</h2>
-    </section>
-
-    <section class="slide clear" style="background-color: #f8f6f6">
-      <img class="cover w" src="pictures/pipeline-1.png" alt="" style="width: 90%" />
-    </section>
-
-    <section class="slide clear">
-      <img class="cover h" src="pictures/60fps.avif" alt="" />
-    </section>
-
-    <section class="slide">
-      <h2 class="shout">Минимум вычислений на&nbsp;скрол</h2>
-    </section>
-
-    <!-- курсоры - многие осознанно так делают -->
-    <!-- <section class="slide">
-      <h2 class="shout brand elevated">
-        <span style="font-size: 1.5em">8</span><br />Играться с&nbsp;курсором
-      </h2>
-    </section>
-
-    <section class="slide clear">
-      <img class="cover h" src="pictures/changecur.png" alt="" />
-    </section>
-
-    <section class="slide">
-      <h2 class="shout">Игра: найди курсор</h2>
-    </section>
-
-    <section class="slide">
-      <h2>Медленно (1)</h2>
-
-      <pre>
-        <code>body { cursor: <mark>url('YourCursorImage.png')</mark>, auto; }</code>
-      </pre>
-    </section>
-
-    <section class="slide">
-      <h2>Медленно (2)</h2>
-
-      <pre>
-        <code class="next">body { cursor: none; }</code>
-        <code class="next">.pointer { width: 12px; height: 12px; background: red; }</code>
-        <code class="next"> </code>
-        <code class="next"><mark>window.addEventListener('mousemove', moveCursor)</mark></code>
-      </pre>
-    </section> -->
-
     <!-- <section class="slide">
       <h2 class="shout brand elevated">
         <span style="font-size: 1.5em">8</span><br />Не&nbsp;готовить иконки
@@ -490,7 +508,7 @@
     </section> -->
 
     <section class="slide">
-      <h2 class="shout brand elevated"><span style="font-size: 1.5em">4</span><br />Состояния</h2>
+      <h2 class="shout brand elevated"><span style="font-size: 1.5em">5</span><br />Состояния</h2>
     </section>
 
     <section class="slide clear" style="background-color: #fafafa">
@@ -520,11 +538,11 @@
     </section>
 
     <section class="slide">
-      <h2 class="shout brand elevated"><span style="font-size: 1.5em">3</span><br />Контент</h2>
+      <h2 class="shout brand elevated"><span style="font-size: 1.5em">4</span><br />Контент</h2>
     </section>
 
     <section class="slide clear" style="background-color: #f0ebf8">
-      <img class="cover h" src="pictures/content-overflow.png" alt="" />
+      <img class="cover h" src="pictures/content-overflow-2.png" alt="" />
     </section>
 
     <section class="slide">
@@ -537,7 +555,7 @@
 
     <!-- --- -->
     <section class="slide">
-      <h2 class="shout brand elevated"><span style="font-size: 1.5em">2</span><br />Рефакторинг</h2>
+      <h2 class="shout brand elevated"><span style="font-size: 1.5em">3</span><br />Рефакторинг</h2>
     </section>
 
     <section class="slide clear">
@@ -582,6 +600,8 @@
       <img class="cover h" src="pictures/rb-meta-blured.png" alt="" />
     </section>
 
+    <!-- Дизайнер изменяет макет, но никого не предупреждает? У кого такое было? -->
+
     <section class="slide clear" style="background-color: #fafafa">
       <img class="cover h" src="pictures/bad-layers.png" alt="" />
     </section>
@@ -611,18 +631,35 @@
       <h2 class="shout">Уменьшайте <nobr>дизайн-долг</nobr></h2>
     </section>
 
-    <!-- --- -->
     <section class="slide">
-      <h2 class="shout brand elevated"><span style="font-size: 1.5em">1</span><br />Разработка</h2>
+      <h2 class="shout brand elevated">
+        <span style="font-size: 1.5em">2</span><br />Pixel Perfect
+      </h2>
     </section>
 
-    <!-- https://uxtools.co/survey/2022/ui-design -->
-    <section class="slide clear">
-      <img class="cover h" src="pictures/figma_stat.png" alt="" style="height: 90%" />
+    <section class="slide">
+      <img class="cover h" src="pictures/pixel-perfect.png" alt="" />
+    </section>
+
+    <section class="slide">
+      <h2 class="shout small">
+        Допускаются различия в&nbsp;5px по&nbsp;высоте и&nbsp;2px по&nbsp;ширине
+      </h2>
+    </section>
+
+    <section class="slide">
+      <h2 class="shout small">Допускаются различия в&nbsp;отображении шрифтов</h2>
     </section>
 
     <section class="slide clear">
-      <img class="cover h" src="pictures/google_chrome.png" alt="" style="height: 90%" />
+      <img class="cover w" src="pictures/we-better.png" alt="" />
+      <h2 class="shout small" style="top: 10%; z-index: 1">Pixel Нормально</h2>
+    </section>
+
+    <section class="slide">
+      <h2 class="shout brand elevated">
+        <span style="font-size: 1.5em">1</span><br />Станьте дизайнером
+      </h2>
     </section>
 
     <section class="slide">
@@ -644,8 +681,8 @@
       <img class="cover w" src="pictures/img-3xCuHD.png" alt="" style="width: 80%" />
     </section>
 
-    <section class="slide">
-      <h2 class="shout">Нет разработчика&nbsp;&mdash; нет проблем</h2>
+    <section class="slide clear">
+      <img class="cover w" src="pictures/apps.png" alt="" />
     </section>
 
     <section class="slide">
@@ -668,10 +705,6 @@
       <img class="cover h" src="pictures/webflow.png" alt="" />
     </section>
 
-    <section class="slide clear">
-      <img class="cover w" src="pictures/apps.png" alt="" />
-    </section>
-
     <section class="slide">
       <h2 class="shout">Изучайте разные инструменты</h2>
     </section>
@@ -687,10 +720,9 @@
       <img class="cover h" src="pictures/checklist.png" alt="" />
     </section>
 
-    <!-- картинку психопата -->
     <section class="slide">
       <h2 class="shout small" style="font-size: 2em">
-        Проектируйте макеты, будто верстать их будет склонный к&nbsp;насилию психопат, который
+        Верстайте, будто проводить дизайн-ревью будет склонный к&nbsp;насилию психопат, который
         знает, где вы&nbsp;живете
       </h2>
     </section>
