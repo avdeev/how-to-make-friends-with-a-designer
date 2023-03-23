@@ -3,6 +3,7 @@
 - [Анонс в Телеграмме](https://t.me/sbermarket_tech/365)
 - [Анонс в Moscow CSS](https://t.me/moscowcss/203)
 - [Видео](https://www.youtube.com/live/dhjDOhQHnuA?feature=share&t=5183)
+- [Фотографии](https://efelizavetaphoto.lite.gallery/moscow_css_x_sbermarket_meetup)
 
 Со времени, когда жизнь разделила веб-мастеров на дизайнеров и верстальщиков, прошло много времени. В первое время мы совсем не понимали друг друга, но современные инструменты уменьшили дистанцию между нами и продолжают это делать.
 
